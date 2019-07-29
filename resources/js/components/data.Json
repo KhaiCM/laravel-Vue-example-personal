@@ -1,7 +1,7 @@
 [{
         "gender": "male",
         "name": {
-            "title": "mr",
+            "title": "mr.A",
             "first": "romain",
             "last": "hoogmoed"
         },
@@ -17,7 +17,7 @@
     {
         "gender": "male",
         "name": {
-            "title": "mr",
+            "title": "mr.B",
             "first": "dominic",
             "last": "bouchard"
         },
@@ -33,7 +33,7 @@
     {
         "gender": "female",
         "name": {
-            "title": "ms",
+            "title": "ms.C",
             "first": "beatrice",
             "last": "andersen"
         },

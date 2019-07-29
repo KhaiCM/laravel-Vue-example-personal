@@ -29,6 +29,8 @@ Vue.component('list-rendering', require('./components/ListRendering.vue').defaul
 
 Vue.component('user-dashboard', require('./components/UserDashboard.vue').default);
 
+Vue.component('life-cycle', require('./components/LifeCycle.vue').default);
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

@@ -1,14 +1,23 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <title>Laravel</title>
-        <meta name="csrf-token" content="{{ csrf_token() }}">
-        <link rel="stylesheet" type="text/css" href="/css/app.css">
-    </head>
-    <body>
-        <div id="app">
-            <user-dashboard></list-rendering>
-        </div>
-        <script src="/js/app.js"></script>
-    </body>
-</html>
+<template>
+    <div id="my-text">
+        This is my text
+    </div>
+</template>
+
+<script>
+    export default {
+        data() {
+            return {
+                message: 'Hello World'
+            }
+        },
+        created() {
+            console.log(this.message)
+
+            console.log(document.getElementById('my-text').innerHTML)
+        }
+    }
+</script>
+
+<style lang="scss" scoped>
+</style>
