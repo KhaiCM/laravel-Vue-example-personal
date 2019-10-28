@@ -1,5 +1,5 @@
 <template>
-    <div class="my-component">
+    <div class="my-component1">
         <div>Message type: {{ message.type }}</div>
         <div>Message text: {{ message.text }}</div>
         <div><button @click="changeType">Change type</button></div>
@@ -45,7 +45,7 @@
 </script>
 
 <style lang="scss" scoped>
-    .my-component {
+    .my-component1 {
         color: red;
     }
 </style>
